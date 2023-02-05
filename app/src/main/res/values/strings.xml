@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Mechano</string>
+    <string name="Help">Help</string>
+    <string name="booking">My Bookings</string>
+    <string name="ServiceRequest">Create Service Request</string>
+    <string name="BookingConfirm">Booking Cofirmation</string>
+    <string name="bookingDetails">Booking Details</string>
+    <string name="Requestmechanic">Request Mechanic</string>
+    <string name="Location">Location</string>
+    <string name="Issue">What is the Issue ?</string>
+    <string name="helpline">+91 7983565917</string>
+
+    <string name="Model">Model</string>
+    <string name="Brand">Brand</string>
+    <string name="servieTime">Service Time and Date</string>
+    <string name="locationError">Error Fetching Location</string>
+
+    <string name="app_name_drawer">Navigation Drawer</string>
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+
+    <string-array name="brands_array">
+        <item>Hero</item>
+        <item>Honda</item>
+        <item>TVS</item>
+        <item>Bajaj</item>
+        <item>Royal Enfield</item>
+        <item>Others</item>
+    </string-array>
+
+    <string-array name="Issues_array">
+        <item>Not Starting</item>
+        <item>Type Puncture</item>
+        <item>Key Damaged</item>
+        <item>Not Working</item>
+        <item>Other Issue</item>
+    </string-array>
+
+    <string-array name="Time_array">
+        <item>Now</item>
+        <item>10:00 AM - 12:00PM</item>
+        <item>12:00 PM - 2:00PM</item>
+        <item>2:00 PM - 5:00PM</item>
+        <item>5:00 PM - 8:00PM</item>
+    </string-array>
+
+
+</resources>
