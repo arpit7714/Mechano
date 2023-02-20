@@ -3,23 +3,32 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="../../Library/Android/sdk/platforms/android-32/data/res/layout/simple_expandable_list_item_1.xml" value="0.15684496826835903" />
+        <entry key="../../Library/Android/sdk/platforms/android-32/data/res/layout/simple_gallery_item.xml" value="0.22393472348141433" />
         <entry key="../../Library/Android/sdk/platforms/android-32/data/res/layout/simple_spinner_dropdown_item.xml" value="0.16673792218896966" />
         <entry key="../../Library/Android/sdk/platforms/android-32/data/res/layout/simple_spinner_item.xml" value="0.19623770842240273" />
         <entry key="app/src/main/res/drawable/app_logo_background.xml" value="0.34" />
         <entry key="app/src/main/res/drawable/app_logo_foreground_background.xml" value="0.2915" />
         <entry key="app/src/main/res/drawable/circle.xml" value="0.338" />
+        <entry key="app/src/main/res/drawable/circlebutton.xml" value="0.2695" />
         <entry key="app/src/main/res/drawable/ellipse_1.xml" value="0.207" />
+        <entry key="app/src/main/res/drawable/gradient.xml" value="0.193" />
         <entry key="app/src/main/res/drawable/ic_baseline_call_24.xml" value="0.155" />
+        <entry key="app/src/main/res/drawable/line_border.xml" value="0.1995" />
         <entry key="app/src/main/res/drawable/rectangle_1.xml" value="0.2655" />
         <entry key="app/src/main/res/drawable/section_1.xml" value="0.2655" />
         <entry key="app/src/main/res/drawable/section_6.xml" value="0.2295" />
         <entry key="app/src/main/res/drawable/section_7.xml" value="0.2295" />
         <entry key="app/src/main/res/drawable/style.xml" value="0.1695" />
         <entry key="app/src/main/res/drawable/style_1.xml" value="0.1635" />
+        <entry key="app/src/main/res/layout-v28/requestmechanic.xml" value="0.38094787597656243" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/create_service_request.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/create_service_request.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/header_layout.xml" value="0.33" />
         <entry key="app/src/main/res/layout/help_page.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/layout1.xml" value="0.22" />
         <entry key="app/src/main/res/layout/my_booking.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/nav_layout.xml" value="0.16500453309156846" />
         <entry key="app/src/main/res/layout/requestmechanic.xml" value="0.67" />
         <entry key="app/src/main/res/menu/navigation_menu.xml" value="0.21248396750748183" />
       </map>

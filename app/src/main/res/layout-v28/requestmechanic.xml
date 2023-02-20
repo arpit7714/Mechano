@@ -92,21 +92,20 @@
             <!--                app:srcCompat="@mipmap/applogonewframe" />-->
 
             <TextView
-                android:layout_alignParentBottom="true"
-                android:layout_centerHorizontal="true"
-                android:layout_marginBottom="20dp"
                 android:layout_width="299dp"
                 android:layout_height="50dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp"
                 android:background="@color/LightBlue"
                 android:padding="5dp"
                 android:text="@string/MechanicDekho"
+                android:textAlignment="center"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                 android:textColor="@color/white"
                 android:textSize="30sp"
-                android:layout_gravity="center"
-                android:textStyle="bold"
-                android:textAlignment="center"
-                >
+                android:textStyle="bold">
 
             </TextView>
 
@@ -230,30 +229,30 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <!--        <com.airbnb.lottie.LottieAnimationView-->
-        <!--            android:id="@+id/requestButton"-->
-        <!--            android:layout_width="88dp"-->
-        <!--            android:layout_height="70dp"-->
-        <!--            android:layout_margin="5dp"-->
-        <!--            android:layout_weight="1"-->
-        <!--            android:background="@drawable/circlebutton"-->
-        <!--            app:layout_constraintBottom_toBottomOf="parent"-->
-        <!--            app:layout_constraintEnd_toEndOf="parent"-->
-        <!--            app:layout_constraintStart_toStartOf="parent"-->
-        <!--            app:layout_constraintTop_toTopOf="parent"-->
-        <!--            app:lottie_autoPlay="true"-->
-        <!--            app:lottie_loop="true"-->
-        <!--            app:lottie_rawRes="@raw/mechanic2" />-->
+<!--        <com.airbnb.lottie.LottieAnimationView-->
+<!--            android:id="@+id/requestButton"-->
+<!--            android:layout_width="88dp"-->
+<!--            android:layout_height="70dp"-->
+<!--            android:layout_margin="5dp"-->
+<!--            android:layout_weight="1"-->
+<!--            android:background="@drawable/circlebutton"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent"-->
+<!--            app:lottie_autoPlay="true"-->
+<!--            app:lottie_loop="true"-->
+<!--            app:lottie_rawRes="@raw/mechanic2" />-->
 
-        <LinearLayout
-            android:id="@+id/part2_images"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="5dp"
-            android:orientation="horizontal"
-            app:layout_constraintBottom_toBottomOf="@id/part1_images">
+                <LinearLayout
+                    android:id="@+id/part2_images"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal"
+                    app:layout_constraintBottom_toBottomOf="@id/part1_images">
 
-            <!--            <ImageView-->
+                    <!--            <ImageView-->
             <!--                android:id="@+id/imageView2"-->
             <!--                android:layout_width="0dp"-->
             <!--                android:layout_height="154dp"-->
@@ -292,17 +291,17 @@
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
-    <!--    <com.airbnb.lottie.LottieAnimationView-->
-    <!--        android:id="@+id/lottieAnimationView"-->
-    <!--        android:layout_width="match_parent"-->
-    <!--        android:layout_height="120dp"-->
-    <!--        android:layout_marginStart="4dp"-->
-    <!--        app:layout_constraintBottom_toTopOf="@+id/linearLayout"-->
-    <!--        app:layout_constraintStart_toStartOf="parent"-->
-    <!--        app:layout_constraintTop_toBottomOf="@+id/main_layout_screen"-->
-    <!--        app:lottie_autoPlay="true"-->
-    <!--        app:lottie_loop="true"-->
-    <!--        app:lottie_rawRes="@raw/gears"/>-->
+<!--    <com.airbnb.lottie.LottieAnimationView-->
+<!--        android:id="@+id/lottieAnimationView"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="120dp"-->
+<!--        android:layout_marginStart="4dp"-->
+<!--        app:layout_constraintBottom_toTopOf="@+id/linearLayout"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/main_layout_screen"-->
+<!--        app:lottie_autoPlay="true"-->
+<!--        app:lottie_loop="true"-->
+<!--        app:lottie_rawRes="@raw/gears"/>-->
 
 
 

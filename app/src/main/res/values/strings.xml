@@ -7,14 +7,19 @@
     <string name="bookingDetails">Booking Details</string>
     <string name="Requestmechanic">Request Mechanic</string>
     <string name="Location">Location</string>
-    <string name="Issue">What is the Issue ?</string>
+    <string name="Issue">Select Issue</string>
     <string name="helpline">+91 7983565917</string>
 
     <string name="Model">Model</string>
     <string name="Brand">Brand</string>
-    <string name="servieTime">Service Time and Date</string>
+    <string name="serviceTime">Service Time</string>
+    <string name="serviceDate">Service Date</string>
+    <string name="AttachPic">Attach Photo/Video</string>
+
     <string name="locationError">Error Fetching Location</string>
 
+    <string name="layout1_Tag">Get your Vehicle Repaired At your Door Step</string>
+    <string name="MechanicDekho">Mechanic Dekho</string>
     <string name="app_name_drawer">Navigation Drawer</string>
     <string name="nav_open">Open</string>
     <string name="nav_close">Close</string>
