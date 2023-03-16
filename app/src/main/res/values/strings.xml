@@ -23,6 +23,10 @@
     <string name="app_name_drawer">Navigation Drawer</string>
     <string name="nav_open">Open</string>
     <string name="nav_close">Close</string>
+    <string name="bookingstatus">Booking Status</string>
+    <string name="selectServiceTime">please select service time</string>
+    <string name="write_your_issue">write your Issue</string>
+    <string name="enter_brand">Enter your Vehicle Brand</string>
 
     <string-array name="brands_array">
         <item>Hero</item>

@@ -11,6 +11,7 @@ import android.os.Bundle
 import android.provider.Settings
 import android.util.Log
 import android.view.Gravity
+import android.view.View
 import android.widget.*
 import androidx.activity.OnBackPressedCallback
 import androidx.appcompat.app.ActionBarDrawerToggle
@@ -39,7 +40,6 @@ class MainActivity : AppCompatActivity() {
     private lateinit var locationCallback: LocationCallback
     private var currentLocation: Location? = null
     var count = 0
-    var drawer_layout : DrawerLayout? = null
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -69,15 +69,22 @@ class MainActivity : AppCompatActivity() {
 //
 //        })
 
-        drawer_layout = findViewById<DrawerLayout>(R.id.drawer_layout_requestMechanic)
+        var drawer_layout = findViewById<DrawerLayout>(R.id.drawer_layout_requestMechanic)
         var nav_layout = findViewById<NavigationView>(R.id.nv_requestmechanic)
 
-        drawer_layout?.closeDrawer(GravityCompat.START)
+//        drawer_layout?.closeDrawer(GravityCompat.START)
 
-        val toogle_btn = findViewById<ImageView>(R.id.toogle_bar)
+        val toogle_btn = findViewById<ImageButton>(R.id.toogle_bar)
+
         toogle_btn.setOnClickListener {
             Toast.makeText(this, "button is clicked", Toast.LENGTH_LONG).show()
-            drawer_layout?.openDrawer(GravityCompat.END)
+//            if(!nav_layout.i(GravityCompat.START)) navDrawer.openDrawer(Gravity.START);
+//            Log.d("mechanic", drawer_layout.isDrawerOpen(Gravity.LEFT).toString())
+            drawer_layout.openDrawer(GravityCompat.START)
+            nav_layout.visibility = View.VISIBLE
+//            drawer_layout.setOnClickListener {
+//                drawer_layout.openDrawer(GravityCompat.START)
+//            }
         }
         val requestMechanic = findViewById<Button>(R.id.requestButton)
 
@@ -99,7 +106,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onResume() {
         super.onResume()
-        getLocation()
+//        getLocation()
     }
 
     override fun onRequestPermissionsResult(requestCode: Int, permissions: Array<String>, grantResults: IntArray)

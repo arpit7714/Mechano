@@ -51,7 +51,7 @@
                     />
             </RelativeLayout>
 
-            <ImageView
+            <ImageButton
                 android:id="@+id/toogle_bar"
                 android:layout_width="40dp"
                 android:layout_height="37dp"
@@ -61,7 +61,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginEnd="10dp"
                 android:layout_marginBottom="10dp"
-                android:backgroundTint="@color/white"
+                android:background="@color/LightBlue"
                 app:srcCompat="@drawable/ic_baseline_menu_24_white" />
 
             <ImageButton
@@ -77,35 +77,22 @@
                 app:srcCompat="@drawable/ic_baseline_notifications_24_white" />
 
 
-            <!--            <ImageView-->
-            <!--                android:layout_width="96dp"-->
-            <!--                android:layout_height="74dp"-->
-            <!--                android:layout_alignParentBottom="true"-->
-            <!--                android:layout_centerInParent="true"-->
-            <!--                android:layout_marginStart="10dp"-->
-            <!--                android:layout_marginTop="10dp"-->
-            <!--                android:layout_marginEnd="10dp"-->
-            <!--                android:layout_marginBottom="10dp"-->
-            <!--                android:background="@color/LightBlue"-->
-            <!--                android:scaleX="2.5"-->
-            <!--                android:scaleY="1.5"-->
-            <!--                app:srcCompat="@mipmap/applogonewframe" />-->
-
             <TextView
-                android:layout_width="299dp"
-                android:layout_height="50dp"
                 android:layout_alignParentBottom="true"
                 android:layout_centerHorizontal="true"
-                android:layout_gravity="center"
                 android:layout_marginBottom="20dp"
+                android:layout_width="299dp"
+                android:layout_height="50dp"
                 android:background="@color/LightBlue"
                 android:padding="5dp"
                 android:text="@string/MechanicDekho"
-                android:textAlignment="center"
                 android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                 android:textColor="@color/white"
                 android:textSize="30sp"
-                android:textStyle="bold">
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                >
 
             </TextView>
 
@@ -222,37 +209,37 @@
             android:textAllCaps="true"
             android:textColor="@color/white"
             android:textDirection="locale"
-            android:textSize="20sp"
+            android:textSize="15sp"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-<!--        <com.airbnb.lottie.LottieAnimationView-->
-<!--            android:id="@+id/requestButton"-->
-<!--            android:layout_width="88dp"-->
-<!--            android:layout_height="70dp"-->
-<!--            android:layout_margin="5dp"-->
-<!--            android:layout_weight="1"-->
-<!--            android:background="@drawable/circlebutton"-->
-<!--            app:layout_constraintBottom_toBottomOf="parent"-->
-<!--            app:layout_constraintEnd_toEndOf="parent"-->
-<!--            app:layout_constraintStart_toStartOf="parent"-->
-<!--            app:layout_constraintTop_toTopOf="parent"-->
-<!--            app:lottie_autoPlay="true"-->
-<!--            app:lottie_loop="true"-->
-<!--            app:lottie_rawRes="@raw/mechanic2" />-->
+        <!--        <com.airbnb.lottie.LottieAnimationView-->
+        <!--            android:id="@+id/requestButton"-->
+        <!--            android:layout_width="88dp"-->
+        <!--            android:layout_height="70dp"-->
+        <!--            android:layout_margin="5dp"-->
+        <!--            android:layout_weight="1"-->
+        <!--            android:background="@drawable/circlebutton"-->
+        <!--            app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--            app:layout_constraintEnd_toEndOf="parent"-->
+        <!--            app:layout_constraintStart_toStartOf="parent"-->
+        <!--            app:layout_constraintTop_toTopOf="parent"-->
+        <!--            app:lottie_autoPlay="true"-->
+        <!--            app:lottie_loop="true"-->
+        <!--            app:lottie_rawRes="@raw/mechanic2" />-->
 
-                <LinearLayout
-                    android:id="@+id/part2_images"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="5dp"
-                    android:orientation="horizontal"
-                    app:layout_constraintBottom_toBottomOf="@id/part1_images">
+        <LinearLayout
+            android:id="@+id/part2_images"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="@id/part1_images">
 
-                    <!--            <ImageView-->
+            <!--            <ImageView-->
             <!--                android:id="@+id/imageView2"-->
             <!--                android:layout_width="0dp"-->
             <!--                android:layout_height="154dp"-->
@@ -291,17 +278,17 @@
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
-<!--    <com.airbnb.lottie.LottieAnimationView-->
-<!--        android:id="@+id/lottieAnimationView"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="120dp"-->
-<!--        android:layout_marginStart="4dp"-->
-<!--        app:layout_constraintBottom_toTopOf="@+id/linearLayout"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintTop_toBottomOf="@+id/main_layout_screen"-->
-<!--        app:lottie_autoPlay="true"-->
-<!--        app:lottie_loop="true"-->
-<!--        app:lottie_rawRes="@raw/gears"/>-->
+    <!--    <com.airbnb.lottie.LottieAnimationView-->
+    <!--        android:id="@+id/lottieAnimationView"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="120dp"-->
+    <!--        android:layout_marginStart="4dp"-->
+    <!--        app:layout_constraintBottom_toTopOf="@+id/linearLayout"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/main_layout_screen"-->
+    <!--        app:lottie_autoPlay="true"-->
+    <!--        app:lottie_loop="true"-->
+    <!--        app:lottie_rawRes="@raw/gears"/>-->
 
 
 
@@ -315,9 +302,7 @@
         android:padding="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-
-        >
+        app:layout_constraintStart_toStartOf="parent">
 
 
         <Button
@@ -343,6 +328,25 @@
             android:textColor="@color/white" />
 
     </LinearLayout>
+
+<!--    <androidx.drawerlayout.widget.DrawerLayout android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:fitsSystemWindows="true"-->
+<!--        tools:openDrawer="right"-->
+<!--        android:id="@+id/drawer_layout_requestMechanic">-->
+
+<!--        <com.google.android.material.navigation.NavigationView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_gravity="start"-->
+<!--            android:fitsSystemWindows="true"-->
+<!--            android:id="@+id/nv_requestmechanic"-->
+<!--            app:headerLayout="@layout/header_layout"-->
+<!--            app:menu="@menu/navigation_menu"-->
+
+<!--            >-->
+<!--        </com.google.android.material.navigation.NavigationView>-->
+<!--    </androidx.drawerlayout.widget.DrawerLayout>-->
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
